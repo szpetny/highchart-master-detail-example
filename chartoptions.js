@@ -175,6 +175,21 @@ $(function () {
                                 selection: selectDetailChartPart
                             }
                         },
+                        yAxis: {
+                            tickAmount: 5,
+                            title: {
+                              enabled: false
+                            },
+                            labels: {
+                                formatter: function() {
+                                    return this.value;
+                                },
+                                rotation: 45,
+                                style: {
+                                    fontSize: '8px'
+                                }
+                            }
+                        },
                         credits: {
                             enabled: false
                         },
