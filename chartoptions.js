@@ -181,9 +181,6 @@ $(function () {
                         title: {
                             text: 'THE CZART'
                         },
-                        yAxis: {
-                            minRange: 0.1
-                        },
                         legend: {
                             enabled: false
                         },
@@ -257,7 +254,6 @@ $(function () {
                             title: {
                                 text: null
                             },
-                            min: 0.6,
                             showFirstLabel: false
                         },
                         tooltip: {
